@@ -26,6 +26,7 @@
   "dependencies": {
     "@babel/runtime": "^7.10.2",
     "ajax-promises": "^1.0.3",
+    "gh-pages": "^3.1.0",
     "glamor": "^2.20.40",
     "preact": "^8.2.5",
     "preact-compat": "^3.17.0",
