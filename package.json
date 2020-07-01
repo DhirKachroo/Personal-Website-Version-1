@@ -1,12 +1,11 @@
 {
-  "homepage": "http://mihirKachroo.github.io/Personal-Website-Version-1",
   "name": "ptemplate",
   "version": "0.1.0",
   "description": "A personal website template",
   "repository": "https://github.com/nethruster/ptemplate.git",
   "author": "Nethruster <support@nethruster.com>",
   "scripts": {
-    "start": "webpack-dev-server",
+    "dev": "webpack-dev-server",
     "build": "webpack -p --mode production",
     "build-gz": "webpack -p --mode production --env.compress",
     "build-render": "rm -Rf dist ; npm run build && npm run pre-render",
