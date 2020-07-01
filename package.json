@@ -14,14 +14,12 @@
     "predeploy": "npm run build",
 "deploy": "gh-pages -d build"
 
+
   },
   "license": "MIT",
   "reactSnap": {
     "source": "dist",
-    "puppeteerArgs": [
-      "--no-sandbox",
-      "--disable-setuid-sandbox"
-    ],
+    "puppeteerArgs": ["--no-sandbox", "--disable-setuid-sandbox"],
     "minifyHtml": {
       "sortClassName": false,
       "removeComments": true
@@ -31,13 +29,13 @@
     "@babel/runtime": "^7.10.2",
     "ajax-promises": "^1.0.3",
     "gh-pages": "^3.1.0",
+
     "glamor": "^2.20.40",
     "preact": "^8.2.5",
     "preact-compat": "^3.17.0",
     "preact-grecaptcha": "^0.2.1",
     "react-ink": "^6.2.0",
     "react-router-dom": "^4.1.2",
-    "react-scripts": "^3.4.1",
     "react-toastify": "^2.0.0-rc.3"
   },
   "devDependencies": {
